@@ -81,6 +81,10 @@
     font-size: 14px;
 }
 
+.botoes__ancora:active {
+    background-color: var(--azul);
+}
+
 @media screen and (min-width: 1024px) {
     .carrossel__titulo {
         font-size: 26px;
@@ -102,6 +106,10 @@
     .card {
         width: 40%;
         margin: 2em auto;        
+    }
+
+    .botoes__ancora:active {
+        background-color: var(--azul);
     }
 }
 
@@ -135,6 +143,10 @@
     .card {
         width: 60%;
         margin-left: 3em;
+    }
+
+    .botoes__ancora:active {
+        background-color: var(--azul);
     }
 
 }
